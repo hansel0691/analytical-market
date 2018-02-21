@@ -1,0 +1,10 @@
+C:\Users\Hansel\Desktop\AnalyticalMarket\UI\AnalyticalMarket.UI\bin\Debug\netcoreapp1.1\AnalyticalMarket.UI.deps.json
+C:\Users\Hansel\Desktop\AnalyticalMarket\UI\AnalyticalMarket.UI\bin\Debug\netcoreapp1.1\AnalyticalMarket.UI.runtimeconfig.json
+C:\Users\Hansel\Desktop\AnalyticalMarket\UI\AnalyticalMarket.UI\bin\Debug\netcoreapp1.1\AnalyticalMarket.UI.runtimeconfig.dev.json
+C:\Users\Hansel\Desktop\AnalyticalMarket\UI\AnalyticalMarket.UI\bin\Debug\netcoreapp1.1\AnalyticalMarket.UI.dll
+C:\Users\Hansel\Desktop\AnalyticalMarket\UI\AnalyticalMarket.UI\bin\Debug\netcoreapp1.1\AnalyticalMarket.UI.pdb
+C:\Users\Hansel\Desktop\AnalyticalMarket\UI\AnalyticalMarket.UI\obj\Debug\netcoreapp1.1\AnalyticalMarket.UI.csprojResolveAssemblyReference.cache
+C:\Users\Hansel\Desktop\AnalyticalMarket\UI\AnalyticalMarket.UI\obj\Debug\netcoreapp1.1\AnalyticalMarket.UI.csproj.CoreCompileInputs.cache
+C:\Users\Hansel\Desktop\AnalyticalMarket\UI\AnalyticalMarket.UI\obj\Debug\netcoreapp1.1\AnalyticalMarket.UI.AssemblyInfo.cs
+C:\Users\Hansel\Desktop\AnalyticalMarket\UI\AnalyticalMarket.UI\obj\Debug\netcoreapp1.1\AnalyticalMarket.UI.dll
+C:\Users\Hansel\Desktop\AnalyticalMarket\UI\AnalyticalMarket.UI\obj\Debug\netcoreapp1.1\AnalyticalMarket.UI.pdb

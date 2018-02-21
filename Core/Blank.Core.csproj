@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Configuration\" />
+    <Folder Include="Dependency\" />
+    <Folder Include="Extension\" />
+    <Folder Include="Logging\" />
+    <Folder Include="Pagination\" />
+    <Folder Include="Response\" />
+    <Folder Include="Serialization\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="1.1.2" />
+  </ItemGroup>
+
+</Project>

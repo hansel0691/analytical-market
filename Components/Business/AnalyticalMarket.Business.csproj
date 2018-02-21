@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Builder\" />
+    <Folder Include="Helper\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Blank.Core.csproj" />
+    <ProjectReference Include="..\Entities\AnalyticalMarket.Entities.csproj" />
+    <ProjectReference Include="..\Shared\AnalyticalMarket.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
