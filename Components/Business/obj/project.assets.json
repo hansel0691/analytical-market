@@ -7433,11 +7433,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hansel\\Desktop\\AnalyticalMarket\\Components\\Business\\AnalyticalMarket.Business.csproj",
+      "projectUniqueName": "C:\\Users\\Hansel\\Desktop\\analytical-market\\Components\\Business\\AnalyticalMarket.Business.csproj",
       "projectName": "AnalyticalMarket.Business",
-      "projectPath": "C:\\Users\\Hansel\\Desktop\\AnalyticalMarket\\Components\\Business\\AnalyticalMarket.Business.csproj",
+      "projectPath": "C:\\Users\\Hansel\\Desktop\\analytical-market\\Components\\Business\\AnalyticalMarket.Business.csproj",
       "packagesPath": "C:\\Users\\Hansel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hansel\\Desktop\\AnalyticalMarket\\Components\\Business\\obj\\",
+      "outputPath": "C:\\Users\\Hansel\\Desktop\\analytical-market\\Components\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hansel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7453,14 +7453,14 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "C:\\Users\\Hansel\\Desktop\\AnalyticalMarket\\Components\\Shared\\AnalyticalMarket.Shared.csproj": {
-              "projectPath": "C:\\Users\\Hansel\\Desktop\\AnalyticalMarket\\Components\\Shared\\AnalyticalMarket.Shared.csproj"
+            "C:\\Users\\Hansel\\Desktop\\analytical-market\\Components\\Shared\\AnalyticalMarket.Shared.csproj": {
+              "projectPath": "C:\\Users\\Hansel\\Desktop\\analytical-market\\Components\\Shared\\AnalyticalMarket.Shared.csproj"
             },
-            "C:\\Users\\Hansel\\Desktop\\AnalyticalMarket\\Core\\Blank.Core.csproj": {
-              "projectPath": "C:\\Users\\Hansel\\Desktop\\AnalyticalMarket\\Core\\Blank.Core.csproj"
+            "C:\\Users\\Hansel\\Desktop\\analytical-market\\Core\\Blank.Core.csproj": {
+              "projectPath": "C:\\Users\\Hansel\\Desktop\\analytical-market\\Core\\Blank.Core.csproj"
             },
-            "C:\\Users\\Hansel\\Desktop\\AnalyticalMarket\\Components\\Entities\\AnalyticalMarket.Entities.csproj": {
-              "projectPath": "C:\\Users\\Hansel\\Desktop\\AnalyticalMarket\\Components\\Entities\\AnalyticalMarket.Entities.csproj"
+            "C:\\Users\\Hansel\\Desktop\\analytical-market\\Components\\Entities\\AnalyticalMarket.Entities.csproj": {
+              "projectPath": "C:\\Users\\Hansel\\Desktop\\analytical-market\\Components\\Entities\\AnalyticalMarket.Entities.csproj"
             }
           }
         }

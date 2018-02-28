@@ -7375,11 +7375,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hansel\\Desktop\\AnalyticalMarket\\Components\\Entities\\AnalyticalMarket.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\Hansel\\Desktop\\analytical-market\\Components\\Entities\\AnalyticalMarket.Entities.csproj",
       "projectName": "AnalyticalMarket.Entities",
-      "projectPath": "C:\\Users\\Hansel\\Desktop\\AnalyticalMarket\\Components\\Entities\\AnalyticalMarket.Entities.csproj",
+      "projectPath": "C:\\Users\\Hansel\\Desktop\\analytical-market\\Components\\Entities\\AnalyticalMarket.Entities.csproj",
       "packagesPath": "C:\\Users\\Hansel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hansel\\Desktop\\AnalyticalMarket\\Components\\Entities\\obj\\",
+      "outputPath": "C:\\Users\\Hansel\\Desktop\\analytical-market\\Components\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hansel\\AppData\\Roaming\\NuGet\\NuGet.Config",

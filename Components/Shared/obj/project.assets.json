@@ -7045,11 +7045,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hansel\\Desktop\\AnalyticalMarket\\Components\\Shared\\AnalyticalMarket.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\Hansel\\Desktop\\analytical-market\\Components\\Shared\\AnalyticalMarket.Shared.csproj",
       "projectName": "AnalyticalMarket.Shared",
-      "projectPath": "C:\\Users\\Hansel\\Desktop\\AnalyticalMarket\\Components\\Shared\\AnalyticalMarket.Shared.csproj",
+      "projectPath": "C:\\Users\\Hansel\\Desktop\\analytical-market\\Components\\Shared\\AnalyticalMarket.Shared.csproj",
       "packagesPath": "C:\\Users\\Hansel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hansel\\Desktop\\AnalyticalMarket\\Components\\Shared\\obj\\",
+      "outputPath": "C:\\Users\\Hansel\\Desktop\\analytical-market\\Components\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hansel\\AppData\\Roaming\\NuGet\\NuGet.Config",
