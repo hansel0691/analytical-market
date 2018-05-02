@@ -6,7 +6,7 @@ namespace AnalyticalMarket.Entities.Models
 {
     public class HistoricalQuote  
     {
-        public int HistoricalQuoteId { get; set; }
+        public int Id { get; set; }
         public int StockId { get; set; }
         public DateTime Date { get; set; }
         public double High { get; set; }
@@ -15,6 +15,6 @@ namespace AnalyticalMarket.Entities.Models
         public double Close { get; set; }
         public double AdjustedClose { get; set; }
         public int Volume { get; set; }
-
+        public double SplitCoefficient { get; set; }
     }
 }

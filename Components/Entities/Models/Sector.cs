@@ -6,7 +6,7 @@ namespace AnalyticalMarket.Entities.Models
 {
     public class Sector
     {
-        public int SectorId { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
     }
 }

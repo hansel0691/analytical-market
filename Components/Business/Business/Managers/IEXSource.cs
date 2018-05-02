@@ -6,47 +6,47 @@ namespace AnalyticalMarket.Business.Business.Managers
 {
     public class IEXSource : IEMarket
     {
-        public long AverageVolume(string symbol, DateTime? date = null)
+        public long AverageVolume(string ticker, DateTime? date = null)
+        {
+            throw new NotImplementedException();
+        }
+        
+        public double Beta(string ticker)
         {
             throw new NotImplementedException();
         }
 
-        public double Beta(string symbol)
+        public double Close(string ticker, DateTime? date = null)
         {
             throw new NotImplementedException();
         }
 
-        public double Close(string symbol, DateTime? date = null)
+        public double Dividend(string ticker, Quarter quarter, int year)
         {
             throw new NotImplementedException();
         }
 
-        public double Dividend(string symbol, Quarter quarter, int year)
+        public double High(string ticker, DateTime? date = null)
         {
             throw new NotImplementedException();
         }
 
-        public double High(string symbol, DateTime? date = null)
+        public double Low(string ticker, DateTime? date = null)
         {
             throw new NotImplementedException();
         }
 
-        public double Low(string symbol, DateTime? date = null)
+        public long MarketCap(string ticker)
         {
             throw new NotImplementedException();
         }
 
-        public long MarketCap(string symbol)
+        public double Open(string ticker, DateTime? fromDate = null)
         {
             throw new NotImplementedException();
         }
 
-        public double Open(string symbol, DateTime? fromDate = null)
-        {
-            throw new NotImplementedException();
-        }
-
-        public long Volume(string symbol, DateTime? date = null)
+        public long Volume(string ticker, DateTime? date = null)
         {
             throw new NotImplementedException();
         }
