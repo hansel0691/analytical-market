@@ -23,33 +23,34 @@ namespace AnalyticalMarket.Business.Business.IEX
         }
 
         #endregion
+
         #region IMarket Seeder
 
 
-        public void SeedBalanceSheet(string ticker)
+        public async Task SeedBalanceSheet(string ticker)
         {
             /*/stock/{symbol}/financials*/
             throw new NotImplementedException();
         }
         
-        public void SeedCashFlow(string ticker)
+        public async Task SeedCashFlow(string ticker)
         {
             /*/stock/{symbol}/financials*/
             throw new NotImplementedException();
         }
 
-        public Task SeedHistoricalQuote(string ticker, DateTime? from, DateTime? to)
+        public async Task SeedHistoricalQuote(string ticker, DateTime? from, DateTime? to)
         {
             throw new NotImplementedException();
         }
 
-        public void SeedIncomeStatement(string ticker)
+        public async Task SeedIncomeStatement(string ticker)
         {
             /*/stock/{symbol}/financials*/
             throw new NotImplementedException();
         }
 
-        public void SeedProfile(string ticker)
+        public async Task SeedProfile(string ticker)
         {
         /*
          * https://api.iextrading.com/1.0/stock/aapl/company
@@ -58,12 +59,12 @@ namespace AnalyticalMarket.Business.Business.IEX
             throw new NotImplementedException();
         }
 
-        public void SeedStock(string ticker)
+        public async Task SeedStock(string ticker)
         {
             throw new NotImplementedException();
         }
 
-        public Task SeedDividends(string ticker, DateTime? from, DateTime? to)
+        public async Task SeedDividends(string ticker, DateTime? from, DateTime? to)
         {
             /*
              * GET /stock/{symbol}/dividends/{range}
