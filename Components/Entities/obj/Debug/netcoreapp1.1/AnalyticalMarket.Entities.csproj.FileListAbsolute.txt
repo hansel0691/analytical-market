@@ -1,8 +1,0 @@
-C:\Users\Hansel\Desktop\AnalyticalMarket\Components\Entities\bin\Debug\netcoreapp1.1\AnalyticalMarket.Entities.deps.json
-C:\Users\Hansel\Desktop\AnalyticalMarket\Components\Entities\bin\Debug\netcoreapp1.1\AnalyticalMarket.Entities.dll
-C:\Users\Hansel\Desktop\AnalyticalMarket\Components\Entities\bin\Debug\netcoreapp1.1\AnalyticalMarket.Entities.pdb
-C:\Users\Hansel\Desktop\AnalyticalMarket\Components\Entities\obj\Debug\netcoreapp1.1\AnalyticalMarket.Entities.csprojResolveAssemblyReference.cache
-C:\Users\Hansel\Desktop\AnalyticalMarket\Components\Entities\obj\Debug\netcoreapp1.1\AnalyticalMarket.Entities.csproj.CoreCompileInputs.cache
-C:\Users\Hansel\Desktop\AnalyticalMarket\Components\Entities\obj\Debug\netcoreapp1.1\AnalyticalMarket.Entities.AssemblyInfo.cs
-C:\Users\Hansel\Desktop\AnalyticalMarket\Components\Entities\obj\Debug\netcoreapp1.1\AnalyticalMarket.Entities.dll
-C:\Users\Hansel\Desktop\AnalyticalMarket\Components\Entities\obj\Debug\netcoreapp1.1\AnalyticalMarket.Entities.pdb

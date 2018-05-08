@@ -1,8 +1,0 @@
-C:\Users\Hansel\Desktop\AnalyticalMarket\Components\Shared\bin\Debug\netcoreapp1.1\AnalyticalMarket.Shared.deps.json
-C:\Users\Hansel\Desktop\AnalyticalMarket\Components\Shared\bin\Debug\netcoreapp1.1\AnalyticalMarket.Shared.dll
-C:\Users\Hansel\Desktop\AnalyticalMarket\Components\Shared\bin\Debug\netcoreapp1.1\AnalyticalMarket.Shared.pdb
-C:\Users\Hansel\Desktop\AnalyticalMarket\Components\Shared\obj\Debug\netcoreapp1.1\AnalyticalMarket.Shared.csprojResolveAssemblyReference.cache
-C:\Users\Hansel\Desktop\AnalyticalMarket\Components\Shared\obj\Debug\netcoreapp1.1\AnalyticalMarket.Shared.csproj.CoreCompileInputs.cache
-C:\Users\Hansel\Desktop\AnalyticalMarket\Components\Shared\obj\Debug\netcoreapp1.1\AnalyticalMarket.Shared.AssemblyInfo.cs
-C:\Users\Hansel\Desktop\AnalyticalMarket\Components\Shared\obj\Debug\netcoreapp1.1\AnalyticalMarket.Shared.dll
-C:\Users\Hansel\Desktop\AnalyticalMarket\Components\Shared\obj\Debug\netcoreapp1.1\AnalyticalMarket.Shared.pdb

@@ -1,8 +1,0 @@
-C:\Users\Hansel\Desktop\AnalyticalMarket\Core\bin\Debug\netcoreapp1.1\Blank.Core.deps.json
-C:\Users\Hansel\Desktop\AnalyticalMarket\Core\bin\Debug\netcoreapp1.1\Blank.Core.dll
-C:\Users\Hansel\Desktop\AnalyticalMarket\Core\obj\Debug\netcoreapp1.1\Blank.Core.csproj.CoreCompileInputs.cache
-C:\Users\Hansel\Desktop\AnalyticalMarket\Core\obj\Debug\netcoreapp1.1\Blank.Core.AssemblyInfo.cs
-C:\Users\Hansel\Desktop\AnalyticalMarket\Core\bin\Debug\netcoreapp1.1\Blank.Core.pdb
-C:\Users\Hansel\Desktop\AnalyticalMarket\Core\obj\Debug\netcoreapp1.1\Blank.Core.csprojResolveAssemblyReference.cache
-C:\Users\Hansel\Desktop\AnalyticalMarket\Core\obj\Debug\netcoreapp1.1\Blank.Core.dll
-C:\Users\Hansel\Desktop\AnalyticalMarket\Core\obj\Debug\netcoreapp1.1\Blank.Core.pdb
