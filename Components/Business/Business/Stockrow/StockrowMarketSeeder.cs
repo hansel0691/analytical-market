@@ -1,9 +1,11 @@
 ﻿using AnalyticalMarket.Business.Business.Interfaces;
 using AnalyticalMarket.Business.Data.Interfaces;
+using AnalyticalMarket.Entities.Models;
 using OfficeOpenXml;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +14,7 @@ using System.Web;
 namespace AnalyticalMarket.Business.Business.Stockrow
 {
     /// <summary>
-    /// Source URI: https://stockrow.com/api
+    /// Source URI: https://stockrow.com
     /// </summary>
     public class StockrowMarketSeeder : IMarketSeeder
     {
@@ -40,36 +42,37 @@ namespace AnalyticalMarket.Business.Business.Stockrow
             throw new NotImplementedException();
         }
 
-        public async Task SeedIncomeStatement(string ticker)
+        public async Task SeedIncomeStatement(string ticker, DateTime? from, DateTime? to)
         {
             var dimension = "MRQ";
             var section = "Income Statement";
 
             ExcelWorksheet workSheet = await GetExcelStatementAsync(ticker, dimension, section);
 
+            var income10Qs = StockrowFormatter.ParseIncomeStatement(workSheet);
 
-            for (int i = workSheet.Dimension.Start.Row; i <= workSheet.Dimension.End.Row; i++)
-            {
-                for (int j = workSheet.Dimension.Start.Column; j <= workSheet.Dimension.End.Column; j++)
-                {
-                    object cellValue = workSheet.Cells[i, j].Value;
-                }
-            }
+            if (income10Qs == null || !income10Qs.Any())
+                throw new Exception("Invalid Excel Worksheet");
 
-            throw new NotImplementedException();
+            var result = income10Qs.Where(m => (from == null || from <= m.Date) && (to == null || m.Date <= to)).ToList();
         }
 
-        public async Task SeedBalanceSheet(string ticker)
+        public async Task SeedBalanceSheet(string ticker, DateTime? from, DateTime? to)
         {
             var dimension = "MRQ";
             var section = "Balance Sheet";
 
             ExcelWorksheet workSheet = await GetExcelStatementAsync(ticker, dimension, section);
 
-            throw new NotImplementedException();
+            var balance10Qs = StockrowFormatter.ParseBalanceSheet(workSheet);
+
+            if (balance10Qs == null || !balance10Qs.Any())
+                throw new Exception("Invalid Excel Worksheet");
+
+            var result = balance10Qs.Where(m => (from == null || from <= m.Date) && (to == null || m.Date <= to)).ToList();
         }
 
-        public async Task SeedCashFlow(string ticker)
+        public async Task SeedCashFlow(string ticker, DateTime? from, DateTime? to)
         {
             throw new NotImplementedException();
         }
@@ -112,14 +115,13 @@ namespace AnalyticalMarket.Business.Business.Stockrow
                     throw new Exception("Invalid Request Error");
             }
 
-            using (ExcelPackage package = new ExcelPackage(stream))
-            {
-                if (package == null)
-                    throw new Exception("Invalid Request Error");
+            ExcelPackage package = new ExcelPackage(stream);
+            
+            if (package == null)
+                throw new Exception("Invalid Request Error");
 
-                return package.Workbook.Worksheets[0];
-            }
-                
+            return package.Workbook.Worksheets[0];
+
         }
 
         #endregion

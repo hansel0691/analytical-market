@@ -9,9 +9,9 @@ namespace AnalyticalMarket.Business.Business.Interfaces
     {
         Task SeedStock(string ticker);
         Task SeedProfile(string ticker);
-        Task SeedIncomeStatement(string ticker);
-        Task SeedBalanceSheet(string ticker);
-        Task SeedCashFlow(string ticker);
+        Task SeedIncomeStatement(string ticker, DateTime? from, DateTime? to);
+        Task SeedBalanceSheet(string ticker, DateTime? from, DateTime? to);
+        Task SeedCashFlow(string ticker, DateTime? from, DateTime? to);
         Task SeedHistoricalQuote(string ticker, DateTime? from, DateTime? to);
         Task SeedDividends(string ticker, DateTime? from, DateTime? to);
     }

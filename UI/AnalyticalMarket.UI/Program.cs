@@ -16,7 +16,7 @@ namespace AnalyticalMarket.UI
 
         private static async Task<int> GetResult() {
             var seeder = new StockrowMarketSeeder(null);
-            await seeder.SeedBalanceSheet("QCOM");
+            await seeder.SeedIncomeStatement("QCOM", DateTime.Parse("01-01-2018"), null);
 
             return 0;
         } 

@@ -27,29 +27,7 @@ namespace AnalyticalMarket.Business.Business.IEX
         #region IMarket Seeder
 
 
-        public async Task SeedBalanceSheet(string ticker)
-        {
-            /*/stock/{symbol}/financials*/
-            throw new NotImplementedException();
-        }
         
-        public async Task SeedCashFlow(string ticker)
-        {
-            /*/stock/{symbol}/financials*/
-            throw new NotImplementedException();
-        }
-
-        public async Task SeedHistoricalQuote(string ticker, DateTime? from, DateTime? to)
-        {
-            throw new NotImplementedException();
-        }
-
-        public async Task SeedIncomeStatement(string ticker)
-        {
-            /*/stock/{symbol}/financials*/
-            throw new NotImplementedException();
-        }
-
         public async Task SeedProfile(string ticker)
         {
         /*
@@ -60,6 +38,29 @@ namespace AnalyticalMarket.Business.Business.IEX
         }
 
         public async Task SeedStock(string ticker)
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task SeedBalanceSheet(string ticker, DateTime? from, DateTime? to)
+        {
+            /*/stock/{symbol}/financials*/
+            throw new NotImplementedException();
+        }
+
+        public async Task SeedCashFlow(string ticker, DateTime? from, DateTime? to)
+        {
+            /*/stock/{symbol}/financials*/
+            throw new NotImplementedException();
+        }
+
+        public async Task SeedIncomeStatement(string ticker, DateTime? from, DateTime? to)
+        {
+            /*/stock/{symbol}/financials*/
+            throw new NotImplementedException();
+        }
+
+        public async Task SeedHistoricalQuote(string ticker, DateTime? from, DateTime? to)
         {
             throw new NotImplementedException();
         }

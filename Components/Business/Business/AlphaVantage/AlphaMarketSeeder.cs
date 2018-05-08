@@ -33,12 +33,22 @@ namespace AnalyticalMarket.Business.Business.AlphaVantage
 
         #region IMarket Seeder
 
-        public async Task SeedBalanceSheet(string ticker)
+        public async Task SeedProfile(string ticker)
         {
             throw new NotImplementedException();
         }
 
-        public async Task SeedCashFlow(string ticker)
+        public async Task SeedStock(string ticker)
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task SeedBalanceSheet(string ticker, DateTime? from, DateTime? to)
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task SeedCashFlow(string ticker, DateTime? from, DateTime? to)
         {
             throw new NotImplementedException();
         }
@@ -94,17 +104,7 @@ namespace AnalyticalMarket.Business.Business.AlphaVantage
             }
         }
 
-        public async Task SeedIncomeStatement(string ticker)
-        {
-            throw new NotImplementedException();
-        }
-
-        public async Task SeedProfile(string ticker)
-        {
-            throw new NotImplementedException();
-        }
-
-        public async Task SeedStock(string ticker)
+        public async Task SeedIncomeStatement(string ticker, DateTime? from, DateTime? to)
         {
             throw new NotImplementedException();
         }
