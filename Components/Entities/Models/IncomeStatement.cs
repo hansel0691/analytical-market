@@ -7,7 +7,7 @@ namespace AnalyticalMarket.Entities.Models
     public class IncomeStatement
     {
         public int Id { get; set; }
-        public DateTime Date { get; set; }
+        public DateTime PeriodEnding { get; set; }
         public double Revenue { get; set; }
         public double CostOfRevenue { get; set; }
         public double GrossProfit { get; set; }

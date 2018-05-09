@@ -65,7 +65,6 @@ namespace AnalyticalMarket.Business.Business.AlphaVantage
                 var query = HttpUtility.ParseQueryString(string.Empty);
                 query["function"] = "TIME_SERIES_DAILY_ADJUSTED";
                 query["symbol"] = ticker;
-                //TODO HG - Find better way
                 query["outputsize"] = from == null || (DateTime.Now - from.Value).TotalDays > 100 ? "full" : "compact";
                 query["apikey"] = api_key;
 

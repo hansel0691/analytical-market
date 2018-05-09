@@ -54,7 +54,7 @@ namespace AnalyticalMarket.Business.Business.Stockrow
             if (income10Qs == null || !income10Qs.Any())
                 throw new Exception("Invalid Excel Worksheet");
 
-            var result = income10Qs.Where(m => (from == null || from <= m.Date) && (to == null || m.Date <= to)).ToList();
+            var result = income10Qs.Where(m => (from == null || from <= m.PeriodEnding) && (to == null || m.PeriodEnding <= to)).ToList();
         }
 
         public async Task SeedBalanceSheet(string ticker, DateTime? from, DateTime? to)
@@ -69,12 +69,22 @@ namespace AnalyticalMarket.Business.Business.Stockrow
             if (balance10Qs == null || !balance10Qs.Any())
                 throw new Exception("Invalid Excel Worksheet");
 
-            var result = balance10Qs.Where(m => (from == null || from <= m.Date) && (to == null || m.Date <= to)).ToList();
+            var result = balance10Qs.Where(m => (from == null || from <= m.PeriodEnding) && (to == null || m.PeriodEnding <= to)).ToList();
         }
 
         public async Task SeedCashFlow(string ticker, DateTime? from, DateTime? to)
         {
-            throw new NotImplementedException();
+            var dimension = "MRQ";
+            var section = "Cash Flow";
+
+            ExcelWorksheet workSheet = await GetExcelStatementAsync(ticker, dimension, section);
+
+            var cash10Qs = StockrowFormatter.ParseCashFlow(workSheet);
+
+            if (cash10Qs == null || !cash10Qs.Any())
+                throw new Exception("Invalid Excel Worksheet");
+
+            var result = cash10Qs.Where(m => (from == null || from <= m.PeriodEnding) && (to == null || m.PeriodEnding <= to)).ToList();
         }
 
         public async Task SeedHistoricalQuote(string ticker, DateTime? from, DateTime? to)

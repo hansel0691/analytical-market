@@ -7,7 +7,7 @@ namespace AnalyticalMarket.Entities.Models
     public class BalanceSheet
     {
         public int Id { get; set; }
-        public DateTime Date { get; set; }
+        public DateTime PeriodEnding { get; set; }
         public double Cash_Equivalents { get; set; }
         public double CurrentInvestments { get; set; }
         public double Investments { get; set; }
